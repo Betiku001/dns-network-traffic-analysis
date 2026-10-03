@@ -1,0 +1,2 @@
+13:24:32.192571 IP 192.168.1.45.51020 > 203.0.113.2.domain: 35084+ A? yummyrecipesforme.com. (42)
+13:24:32.192600 IP 203.0.113.2 > 192.168.1.45: ICMP 203.0.113.2 udp port 53 unreachable length 70
