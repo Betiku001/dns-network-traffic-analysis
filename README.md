@@ -49,9 +49,8 @@ Based on the packet trace, two primary root causes are under investigation:
 2. **Firewall Audit:** Review active Access Control Lists (ACLs) and firewall rules on host and network firewalls for unintended blocks on UDP Port 53.
 3. **Failover Execution:** Temporarily update network routing/DHCP options to point clients to a secondary DNS resolver while primary server recovery is underway.
 4. **Hardening Controls:** Implement rate-limiting and anti-DoS traffic shaping on the perimeter firewall to protect DNS infrastructure against resource exhaustion.
-```
-## Repository Structure & Artifacts
-```
+
+## Remediation & Immediate Action Items
 ├── README.md               # Incident Case Study Write-up
 └── logs/
     └── tcpdump_dns.log     # Sanitized raw packet capture logs
